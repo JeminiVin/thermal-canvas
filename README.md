@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ⚡ ThermalVision — High-Performance CRO & Heatmap Engine
 
-## Getting Started
+ThermalVision is an interactive visual analytics suite built with **Next.js (App Router)**, **Tailwind CSS**, and **TypeScript**. It provides real-time CRO heatmaps, scroll depth breakdown, A/B split-testing comparison, and dynamic PDF audit report generation.
 
-First, run the development server:
+![ThermalVision Demo](https://raw.githubusercontent.com/YOUR-USERNAME/YOUR-REPO-NAME/main/public/demo-screenshot.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Key Features
+- **🔥 Real-time Heatmap Simulation:** Simulates attention heat spots with variable opacity controls.
+- **⚡ CORS & X-Frame Proxy Bypass:** Renders cross-origin websites securely via Next.js Edge-ready proxy API routes.
+- **📊 A/B Split Comparison:** Dual viewport mode for side-by-side comparison of baseline vs redesigned landing pages.
+- **📜 Scroll Depth Overlay:** Fold depth visualization (25%, 50%, 75%, 100%) to measure attention drop-offs.
+- **📍 Interactive Hotspot Pinning:** Add, inspect, and delete custom attention targets dynamically.
+- **📄 Instant PDF Export:** High-res report export using `html2canvas` and `jsPDF`.
+- **💾 LocalStorage Persistence:** Save and reload previous site audits instantly.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS + Lucide Icons
+- **Language:** TypeScript
+- **Export Engine:** `html2canvas` & `jspdf`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Quick Start
+ **Clone the repository:**
+   ```bash
+   git clone https://github.com/jemini-Vin/thermal-canvas.git
+   cd thermal-canvas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
